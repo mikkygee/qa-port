@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deke Oghenekevwe | QA Engineer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <header class="mb-10 text-center">
+      <h1 class="text-4xl font-bold">Deke Oghenekevwe</h1>
+      <p class="text-lg mt-2">QA Engineer | Selenium | Postman | JIRA | C#</p>
+      <p class="mt-2">
+        <a href="mailto:kevwedeke@gmail.com" class="text-blue-500">kevwedeke@gmail.com</a> ||
+        <a href="tel:+2347032673921" class="text-blue-500">+234 703 267 3921</a> - 
+         <a href="tel:+2349065556479" class="text-blue-500">+234 906 555 6479</a>
+        <p><a href="https://www.linkedin.com/in/oghenekevwe-deke/" class="text-blue-500" target="_blank">LinkedIn Profile</a> ||
+          <a href="https://docs.google.com/document/d/1C4YpD3gjlNm9QkFKiFaewje3Fb9JiuLHNn-GYt6PJRo/edit?tab=t.0" class="text-blue-500" target="_blank">Link to Resume
+        </a></p>
+         
+      </p>
+
+    </header>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Profile Summary</h2>
+      <p>Results-driven QA Engineer with over 3 years of experience in manual, automation, and API testing. Skilled in Selenium (C#), JIRA, Postman, SQL, and performance testing using JMeter. Passionate about delivering high-quality software and continuously improving QA processes.</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Core Competencies</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li>Selenium WebDriver (C#)</li>
+        <li>API Testing with Postman</li>
+        <li>Performance Testing with JMeter</li>
+        <li>Bug Tracking (JIRA, Azure DevOps)</li>
+        <li>SQL & Database Validation</li>
+        <li>Test Planning, Execution & Reporting</li>
+        <li>Agile & Scrum Methodologies</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Project Highlights</h2>
+      <div class="mb-4">
+        <h3 class="text-xl font-bold">1. Omnibiz Africa – B2B Web/Mobile Testing</h3>
+        <ul class="list-disc list-inside ml-4">
+          <li>Automated core workflows using Selenium (C#)</li>
+          <li>Managed bug reports and test phases using Azure DevOps</li>
+          <li>Executed API tests and database validations</li>
+          <li>Reduced manual testing by 40%</li>
+        </ul>
+      </div>
+      <div class="mb-4">
+        <h3 class="text-xl font-bold">2. Addosser Microfinance Bank – Core Banking QA</h3>
+        <ul class="list-disc list-inside ml-4">
+          <li>Conducted functional, regression, and post-deployment testing</li>
+          <li>Performed load testing with JMeter</li>
+          <li>Logged and tracked issues using JIRA</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold">3. API & Database Testing – Personal Projects</h3>
+        <ul class="list-disc list-inside ml-4">
+          <li>Created Postman test suites for a simulated e-commerce API</li>
+          <li>Performed CRUD validations and backend consistency checks</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Sample Selenium Script</h2>
+      <pre class="bg-gray-200 p-4 rounded text-sm overflow-x-auto">
+[Test]
+public void Login_ValidCredentials_ShouldLoginSuccessfully() {
+    IWebDriver driver = new ChromeDriver();
+    driver.Navigate().GoToUrl("https://example.com/login");
+    driver.FindElement(By.Id("username")).SendKeys("testuser");
+    driver.FindElement(By.Id("password")).SendKeys("password123");
+    driver.FindElement(By.Id("loginButton")).Click();
+    Assert.IsTrue(driver.Url.Contains("dashboard"));
+    driver.Quit();
+}
+      </pre>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Soft Skills & Contact</h2>
+      <ul class="list-disc list-inside">
+        <li>Effective communicator & team player</li>
+        <li>Analytical and solution-oriented</li>
+        <li>Open to remote and on-site QA roles</li>
+      </ul>
+      <p class="mt-4">Let’s connect! I'm actively seeking QA opportunities where I can contribute, learn, and grow.</p>
+    </section>
+  </div>
+</body>
+</html>
